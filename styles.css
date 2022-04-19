@@ -155,8 +155,17 @@ h2 {
   font-weight: 700;
 }
 
+h4 {
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
 p {
   font-weight: 300;
+}
+
+.bg-gray {
+  background-color: var(--hero-secondary-text);
 }
 
 .section-container {
@@ -166,6 +175,8 @@ p {
 
 button {
   border-radius: 8px;
+  padding: 12px 36px;
+  font-size: 1em;
 }
 
 /* ----------- Main Styles ----------- */
@@ -228,8 +239,6 @@ header button {
   background-color: var(--light-blue);
   border: none;
   color: #fff;
-  padding: 12px 36px;
-  font-size: 1em;
 }
 
 /* Section One */
@@ -257,14 +266,50 @@ header button {
   margin: 16px auto;
 }
 
-.bg-gray {
-  background-color: var(--hero-secondary-text);
+/* Section Two */
+
+#section-two {
+  padding: 100px 0;
+}
+
+#section-two .quote {
+  font-size: 2.8em;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+#section-two .author {
+  text-align: right;
+  margin-top: 24px;
+  margin-right: 24px;
+}
+
+/* Section Three */
+
+#section-three {
+  padding: 100px 0;
 }
 
 .cta {
   background-color: var(--light-blue);
+  color: #fff;
+  padding: 36px 48px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cta button {
+  background-color: transparent;
+  border: none;
+  border: 2px solid #fff;
+  color: #fff;
 }
 
 footer {
   background-color: var(--dark-blue);
+  color: #fff;
+  padding: 60px 0;
+  text-align: center;
 }
